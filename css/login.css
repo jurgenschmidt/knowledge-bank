@@ -1,0 +1,109 @@
+@import url("bootstrap.css");
+body, html {
+    /*background-color: #FEF0E3;*/
+    font-family: 'Open Sans';
+    background-color: #ecf0f1;    
+}
+
+
+
+#main {}
+
+#main .texts {
+    text-align: center;
+    padding-top: 50px;
+}
+#main .texts h1 {
+    font-weight: 900;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 36px;
+}
+#main .texts h2 {
+    font-size: 18px;
+    width: 700px;
+    margin: 10px auto;
+}
+
+#main form {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #16a085;
+    padding: 30px 30px;
+    border-radius: 3px;
+}
+#main form .message {}
+#main form .message h2 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+#main form .form-group {
+    margin: 10px 0;
+}
+#main form .form-group label {
+    display: block;
+    margin: 0;
+    cursor: pointer;
+}
+#main form .form-group label span {
+    width: 80px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #1abc9c;
+    text-align: center;
+    font-size: 24px;
+    color: #ecf0f1;
+    padding: 15px 0px;
+    margin-right: -4px;
+}
+#main form .form-group label span i {}
+#main form .form-group label input {
+    width: 360px;
+    display: inline-block;
+    border: medium none;
+    border-radius: 0;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #ecf0f1;
+}
+#main form button {
+    color: #ecf0f1;
+    background-color: #1abc9c;
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+    border: medium none;
+    border-radius: 0;
+    font-weight: bold;
+    height: 64px;
+    font-size: 20px;
+}
+#main form button:hover {}
+
+#main .alerts-form {}
+#main .alert {
+    margin: 0;
+    width: 500px;
+    left: 50%;
+    font-weight: bold;
+    font-size: 18px;
+    border: medium none;
+    color: #ecf0f1;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    margin-left: -250px;
+    transition: 0.3s;
+
+    display: none;
+}
+#main .alert-danger {background-color: #c0392b;}
+#main .alert-success {background-color: #27ae60;}
+
+#login {
+    margin-top: 10px !important;
+}
+#forget-pass {display: none;}
