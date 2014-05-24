@@ -29,7 +29,7 @@ body, html {
     width: 500px;
     margin: 0 auto;
     background-color: #16a085;
-    padding: 30px 30px;
+    padding: 15px 30px;
     border-radius: 3px;
 }
 #main form .message {}
@@ -106,4 +106,12 @@ body, html {
 #login {
     margin-top: 10px !important;
 }
+#login .request-pass {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    display: block;
+}
+#login .request-pass:hover {}
 #forget-pass {display: none;}

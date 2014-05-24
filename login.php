@@ -78,6 +78,7 @@
 						<!-- send form -->
 						<button class="btn btn-default send" type="submit">Logar</button>
 						
+						<a href="#" class="request-pass">Esqueceu a senha?</a>
 					</form>
 				</div>
 
