@@ -115,3 +115,74 @@ body, html {
 }
 #login .request-pass:hover {}
 #forget-pass {display: none;}
+
+
+
+/*  */
+::-webkit-input-placeholder {
+    font-weight: 500;
+    color: #333;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    font-weight: 500;
+    color: #333;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    font-weight: 500;
+    color: #333;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    font-weight: 500;
+    color: #333;
+    opacity: 1;
+}
+
+input:focus:-moz-placeholder {
+  -moz-animation-duration: 0.4s;
+  -moz-animation-name: slidein;
+  -moz-animation-timing-function: ease-out;
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-delay: 0.1s;
+}
+input:focus::-webkit-input-placeholder {
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-name: slidein;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.1s;
+}
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+ 
+@-webkit-keyframes slidein {
+  from {
+    opacity: 1;
+    padding-left: 0px;
+  }
+
+  to {
+    opacity: 0;
+    padding-left: 10px;
+  }
+}
+@-moz-keyframes slidein {
+  from {
+    opacity: 1;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+
+  to {
+    opacity: 0;
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+}
