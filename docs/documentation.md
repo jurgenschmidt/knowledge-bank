@@ -13,8 +13,8 @@ O KBANK (Knowledge Bank) servirá para organizar e facilitar a consulta de infor
 Com este sistema, todas as informações já buscadas, serão cadastradas em seus respectivos produtos, assim, quando alguém precisar atender um cliente, basta consultar este grande manual, economizando tempo, agilizando o atendimento e qualificando cada vez mais o SAC da empresa.
 
 * [Download](https://github.com/teteusix/knowledge-bank/blob/master/docs/documentation.md)
-<!-- * [Instalação](https://github.com/teteusix/knowledge-bank) -->
-<!-- * [Documentação](https://github.com/teteusix/knowledge-bank) -->
+* [Instalação](https://github.com/teteusix/knowledge-bank)
+* [Documentação](https://github.com/teteusix/knowledge-bank)
 
 ## Equipe responsável
 
