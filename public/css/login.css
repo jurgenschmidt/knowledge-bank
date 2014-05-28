@@ -1,0 +1,188 @@
+@import url("bootstrap.css");
+body, html {
+    /*background-color: #FEF0E3;*/
+    font-family: 'Open Sans';
+    background-color: #ecf0f1;    
+}
+
+
+
+#main {}
+
+#main .texts {
+    text-align: center;
+    padding-top: 50px;
+}
+#main .texts h1 {
+    font-weight: 900;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 36px;
+}
+#main .texts h2 {
+    font-size: 18px;
+    width: 700px;
+    margin: 10px auto;
+}
+
+#main form {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #16a085;
+    padding: 15px 30px;
+    border-radius: 3px;
+}
+#main form .message {}
+#main form .message h2 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+#main form .form-group {
+    margin: 10px 0;
+}
+#main form .form-group label {
+    display: block;
+    margin: 0;
+    cursor: pointer;
+}
+#main form .form-group label span {
+    width: 80px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #1abc9c;
+    text-align: center;
+    font-size: 24px;
+    color: #ecf0f1;
+    padding: 15px 0px;
+    margin-right: -4px;
+}
+#main form .form-group label span i {}
+#main form .form-group label input {
+    width: 360px;
+    display: inline-block;
+    border: medium none;
+    border-radius: 0;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #ecf0f1;
+}
+#main form button {
+    color: #ecf0f1;
+    background-color: #1abc9c;
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+    border: medium none;
+    border-radius: 0;
+    font-weight: bold;
+    height: 64px;
+    font-size: 20px;
+}
+#main form button:hover {}
+
+#main .alerts-form {}
+#main .alert {
+    margin: 0;
+    width: 500px;
+    left: 50%;
+    font-weight: bold;
+    font-size: 18px;
+    border: medium none;
+    color: #ecf0f1;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    margin-left: -250px;
+    transition: 0.3s;
+
+    display: none;
+}
+#main .alert-danger {background-color: #c0392b;}
+#main .alert-success {background-color: #27ae60;}
+
+#login {
+    margin-top: 10px !important;
+}
+#login .request-pass {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    display: block;
+}
+#login .request-pass:hover {}
+#forget-pass {display: none;}
+
+
+
+/*  */
+::-webkit-input-placeholder {
+    font-weight: 500;
+    color: #333;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    font-weight: 500;
+    color: #333;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    font-weight: 500;
+    color: #333;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    font-weight: 500;
+    color: #333;
+    opacity: 1;
+}
+
+input:focus:-moz-placeholder {
+  -moz-animation-duration: 0.4s;
+  -moz-animation-name: slidein;
+  -moz-animation-timing-function: ease-out;
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-delay: 0.1s;
+}
+input:focus::-webkit-input-placeholder {
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-name: slidein;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.1s;
+}
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+ 
+@-webkit-keyframes slidein {
+  from {
+    opacity: 1;
+    padding-left: 0px;
+  }
+
+  to {
+    opacity: 0;
+    padding-left: 10px;
+  }
+}
+@-moz-keyframes slidein {
+  from {
+    opacity: 1;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+
+  to {
+    opacity: 0;
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+}
